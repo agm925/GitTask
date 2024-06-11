@@ -35,7 +35,7 @@ public class RandomTable {
         Arrays.sort(tabla, new Comparator<String[]>() {
             @Override
             public int compare(String[] fila1, String[] fila2) {
-                return fila1[1].compareTo(fila2[1]); 
+                return fila2[1].compareTo(fila1[1]); 
             }
         });
         
